@@ -1,0 +1,77 @@
+.card-container {
+  margin-top: 8px;
+  margin-left: 4px;
+  margin-right: 4px;
+}
+
+.card-container > .card {
+  display: flex;
+  break-inside: avoid;
+  margin-bottom: 6px;
+  padding: 6px 12px;
+  border-radius: 6px;
+  background-color: #091e420a;
+  transition: 0.5s;
+  cursor: default;
+}
+
+.card-container > .card:hover {
+  background-color: #091e4214;
+}
+
+.card-container > .card > .card-markdown {
+  padding: 6px;
+  width: calc(100vw - 120px);
+}
+
+.card-container > .card > .card-delete-button-container {
+  float: right;
+  margin: auto;
+}
+
+.card-input-header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.card-input-header *,
+.card-input-header input {
+  margin: 0;
+}
+
+.card-input-header button {
+  margin-left: auto;
+}
+
+.card-label {
+  margin-top: 12px;
+  margin-bottom: -2px;
+}
+
+.work-details {
+  color: blue;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.summary {
+  padding: 15px 20px;
+}
+
+.export-section {
+  margin-top: 40px;
+}
+
+.export-inputs {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.export-inputs *,
+.export-inputs input {
+  margin: 0;
+  margin-right: 6px;
+}
+
