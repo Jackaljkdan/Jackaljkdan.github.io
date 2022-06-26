@@ -35,13 +35,23 @@
   align-items: center;
 }
 
+.work-button {
+  min-width: 87;
+}
+
 .card-input-header *,
 .card-input-header input {
   margin: 0;
 }
 
-.card-input-header button {
+.card-input-header button:first-of-type {
   margin-left: auto;
+}
+
+.card-input-header .complete-work {
+  position: absolute;
+  right: 0;
+  top: 40px;
 }
 
 .card-label {
@@ -49,10 +59,15 @@
   margin-bottom: -2px;
 }
 
-.work-details {
+.link-like {
   color: blue;
   text-decoration: underline;
   cursor: pointer;
+}
+
+.work-sessions-list {
+  display: flex;
+  flex-direction: column-reverse;
 }
 
 .summary {
@@ -73,5 +88,14 @@
 .export-inputs input {
   margin: 0;
   margin-right: 6px;
+}
+
+.lottie-empty-state {
+    width: 200px;
+    margin: 0 auto;
+}
+
+.lottie-empty-state-label {
+    text-align: center;
 }
 
