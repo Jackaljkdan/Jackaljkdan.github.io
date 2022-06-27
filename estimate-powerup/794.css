@@ -39,18 +39,23 @@
   min-width: 87;
 }
 
-.card-input-header *,
-.card-input-header input {
+.card-input-header > *,
+.card-input-header > input {
   margin: 0;
 }
 
-.card-input-header button:first-of-type {
+.card-input-header > button:first-of-type {
   margin-left: auto;
 }
 
-.card-input-header .complete-work {
+.top-right {
   position: absolute;
   right: 0;
+}
+
+.card-input-header .top-right {
+  display: flex;
+  flex-direction: column;
   top: 40px;
 }
 
