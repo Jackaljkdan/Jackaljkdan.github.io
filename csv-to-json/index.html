@@ -1,0 +1,18 @@
+<script src="main.js"></script>
+<script src="persist.js"></script>
+
+<div>
+    <textarea id="input" rows="20" cols="200" oninput="inputChanged()"></textarea>
+</div>
+
+<div>
+    <button onclick="convert()">convert</button>
+    <input id="sanitizeonly" type="checkbox"> sanitize only
+    <input id="autoconvert" type="checkbox" checked> auto convert
+    <!-- <input id="autoclipoard" type="checkbox" checked> auto copy to clipoard -->
+    <input id="autoselect" type="checkbox" checked> auto select
+</div>
+
+<div>
+    <textarea id="output" rows="20" cols="200"></textarea>
+</div>
